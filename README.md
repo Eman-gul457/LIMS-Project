@@ -7,7 +7,6 @@ It is built with:
 - HTML/CSS/JS (frontend)
 - Apache (web server)
 
-This README is written for both technical and non-technical users.
 
 ## 1. What this project does
 
@@ -109,11 +108,10 @@ Import tables:
 mysql -u mini_lims_user -p mini_lims < database/mini_lims.sql
 ```
 
-## 7. Localhost run steps (XAMPP/LAMP)
+## 7. Localhost run steps
 
 1. Put project in web root (for Apache):
    - Linux: `/var/www/html/mini-lims`
-   - XAMPP Windows: `C:\xampp\htdocs\mini-lims`
 2. Open `config/database.php`
 3. Set your real DB username and password.
 4. Start Apache and MySQL.
@@ -220,10 +218,4 @@ git remote add origin <YOUR_GITHUB_REPO_URL>
 git push -u origin main
 ```
 
-## 12. Future improvements (optional)
-
-- Login system (Admin / Technician role)
-- PDF export in reports
-- Better validation and audit logs
-- Email/SMS notification when results are ready
 
